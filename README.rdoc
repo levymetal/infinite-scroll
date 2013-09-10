@@ -15,8 +15,11 @@ CD into it
 Bundle it
     bundle
 
-Seed it
-    rake db:seed
+Set up the database
+    rake db:setup
 
 Run it
     rails s
+
+View it
+    http://localhost:3000/
