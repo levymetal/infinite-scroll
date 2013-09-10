@@ -4,20 +4,18 @@ This is a barebones Rails app that demostrates the use of will_paginate to make 
 
 == Installation
 
-Clone the repo
+Clone it:
     git clone git@github.com:levymetal/infinite-scroll.git
 
-CD into it
+Bundle it:
     cd infinite-scroll
-
-Bundle it
     bundle
 
-Set up the database
+Set up the database:
     rake db:setup
 
-Run it
+Run it:
     rails s
 
-View it
+View it:
     http://localhost:3000/
