@@ -1,10 +1,8 @@
-Infinite Scrolling Demo
-=================
+== Infinite Scrolling Demo
 
 This is a barebones Rails app that demostrates the use of will_paginate to make an infinite-scrolling list view. The full tutorial can be found at http://christianvarga.com/2013/02/simple-infinite-scroll-with-rails-and-jquery/
 
-Installation
------------------
+== Installation
 
 Clone the repo
     git clone git@github.com:levymetal/infinite-scroll.git
