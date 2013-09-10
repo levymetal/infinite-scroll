@@ -1,0 +1,4 @@
+%h1 Listing posts
+.posts
+  = render :partial => 'shared/posts', :locals => { :posts => @posts }
+= link_to 'Load More Posts', posts_path(:page => @posts.next_page), :class => 'load-more-posts', :remote => true if @posts.next_page
