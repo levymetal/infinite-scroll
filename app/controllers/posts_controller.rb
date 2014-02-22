@@ -11,4 +11,10 @@ class PostsController < ApplicationController
       format.js
     end
   end
+
+  private
+    # Never trust parameters from the scary internet, only allow the white list through.
+    def entry_params
+      params.require(:post).permit(:title)
+    end
 end
