@@ -1,3 +1,3 @@
-class Post < ActiveRecord::Base
+class Post < ApplicationRecord
   self.per_page = 10
 end

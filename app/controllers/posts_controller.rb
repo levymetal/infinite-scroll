@@ -14,7 +14,7 @@ class PostsController < ApplicationController
 
   private
     # Never trust parameters from the scary internet, only allow the white list through.
-    def entry_params
+    def post_params
       params.require(:post).permit(:title)
     end
 end
